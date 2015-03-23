@@ -1,5 +1,5 @@
 FROM nginx:1.7.10
-MAINTAINER Jason Wilder jwilder@litl.com
+MAINTAINER E.T.Cook e@etc.io
 
 # Install wget and install/updates certificates
 RUN apt-get update \

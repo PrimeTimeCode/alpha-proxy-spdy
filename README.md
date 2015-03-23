@@ -4,6 +4,10 @@ nginx-proxy sets up a container running nginx and [docker-gen][1].  docker-gen g
 
 See [Automated Nginx Reverse Proxy for Docker][2] for why you might want to use this.
 
+### SPDY
+
+This image is a fork of jwilder/nginx-proxy simply with spdy enabled.
+
 ### Usage
 
 To run it:
