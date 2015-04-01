@@ -1,4 +1,4 @@
-FROM nginx:1.7.10
+FROM nginx:1.7.11
 MAINTAINER E.T.Cook e@etc.io
 
 # Install wget and install/updates certificates
