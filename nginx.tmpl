@@ -134,6 +134,8 @@ server {
 server {
 	server_name {{ $host }};
 
+	client_max_body_size 100M;
+
 	{{ if (exists (printf "/etc/nginx/vhost.d/%s" $host)) }}
 	include {{ printf "/etc/nginx/vhost.d/%s" $host }};
 	{{ end }}
